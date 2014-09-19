@@ -12,18 +12,19 @@ jQuery Automated AJAX Dialog for Bootstrap 2.3.2
 
 # Usage
 
-1. ```html
-<a class="<custom-class>" class="btn btn-info" href="<ajax-url>"AJAX Me!</a>
+HTML
+```html
+<a class="<custom-class>" class="btn btn-info" href="ajax-url>">AJAX Me!</a>
 ```
-2. ```javascript
-    $(function() {
-        $('.<custom-class>').dynamicDialog(<options>);
-    });
+Javascript
+```javascript
+$(function() {
+    $('.<custom-class>').dynamicDialog(<options>);
+});
 ```
 
 # Options
-
-```json
+```javascript
 {
     header: "",
     body "",
